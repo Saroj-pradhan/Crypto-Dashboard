@@ -46,7 +46,7 @@ function Cryptos() {
     const interval = setInterval(fetchData, 30000);
 
   return () => clearInterval(interval);
-  }, [setData]);
+  }, []);
 
   return (
     <div className="bg-white p-2 m-2">
