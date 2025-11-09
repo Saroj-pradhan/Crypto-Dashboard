@@ -50,19 +50,19 @@ function Cryptos() {
 
   return (
     <div className="bg-white p-2 m-2">
-      <div className="bg-slate-600 text-white rounded-lg p-2 mb-1">
+      <div className="bg-slate-600 text-white rounded-lg p-2 mb-5">
         <p>Cryptocurrency Name: {data[0]?.id}</p>
         <p>Price: {data[0]?.priceUsd}</p>
         <p>24h Change: {data[0]?.changePercent24Hr}%</p>
       </div>
 
-      <div className="bg-slate-600 text-white rounded-lg p-2 mb-1">
+      <div className="bg-slate-600 text-white rounded-lg p-2 mb-5">
         <p>Cryptocurrency Name {data[1]?.id}</p>
         <p>Price: {data[1]?.priceUsd}</p>
         <p>24h Change: {data[1]?.changePercent24Hr}%</p>
       </div>
 
-      <div className="bg-slate-600 text-white rounded-lg p-2 mb-1">
+      <div className="bg-slate-600 text-white rounded-lg p-2 mb-5">
         <p>Cryptocurrency Name {data[2]?.id}</p>
         <p>Price: {data[2]?.priceUsd}</p>
         <p>24h Change: {data[2]?.changePercent24Hr}%</p>
